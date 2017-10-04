@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/init.usb.rc:root/init.usb.rc \
     $(LOCAL_PATH)/ueventd.rpi2.rc:root/ueventd.rpi2.rc \
     $(LOCAL_PATH)/fstab.rpi2:root/fstab.rpi2 \
+    $(LOCAL_PATH)/firmware/rt2870.bin:root/lib/firmware/rt2870.bin \
     $(LOCAL_PATH)/Generic.kl:system/usr/keylayout/Generic.kl \
     $(PRODUCT_COPY_FILES)
 
